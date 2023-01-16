@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <!-- bootstrap-socia -->
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- bootstrap-socia -->
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top"> 
+  <div class="w3-bar w3-black" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-left" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+     
+
+    <div class="w3-dropdown-hover ">
+    <a href="index.html" class=" w3-hide-small raj w3-allerta w3-button">HOME <i class="fa fa-home"></i></a>
+     
+    </div>
+
+  
+   <div class="w3-dropdown-hover ">
+      <a href="#insights" class="  w3-hide-small raj w3-allerta w3-button">TOP INSIGHTS </i></a>
+      
+    </div>
+
+
+     <div class="w3-dropdown-hover ">
+      <a href="placesToVisit.html" class=" w3-hide-small raj w3-allerta w3-button">PLACES TO VISIT </i></a>
+      
+    </div>
+
+     <div class="w3-dropdown-hover ">
+      <a href="packages.html" class=" w3-hide-small raj w3-allerta w3-button">PACKAGES </i></a>
+     
+    </div>
+
+      <div class="w3-dropdown-hover ">
+      <a href="hotels.html" class=" w3-hide-small raj w3-allerta w3-button">HOTELS</i></a>
+     
+    </div>
+
+
+     <div class="w3-dropdown-hover ">
+      <a href="activities.html" class=" w3-hide-small raj w3-allerta w3-button">ACTIVITIES</i></a>
+     
+    </div>
+
+
+   <div class="w3-dropdown-hover ">
+      <a href="#faq" class=" w3-hide-small raj w3-allerta w3-button">FAQs</i></a>
+     
+    </div>
+
+
+  
+ </div>
+
+
+
+  
+
+ <!-- Navbar on small screens -->
+  <div id="navDemo" class=" w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="#insights" class=" w3-bar-item w3-button" onclick="toggleFunction()">TOP INSIGHTS</a>
+    <a href="placesToVisit.html" class="w3-bar-item  w3-button" onclick="toggleFunction()">PLACES TO VISIT</a>
+   <a href="packages.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">PACKAGES</a>
+  <a href="hotels.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">HOTELS</a>
+<a href="activities.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">ACTIVITIES</a>
+<a href="#faq" class="w3-bar-item w3-button" onclick="toggleFunction()">FAQs</a>
+ <a href="#" class="w3-bar-item w3-button"></a>
+   
+  </div>
+</div>
+
+
+  
+  
+
+<div class="image-container">
+  <div class="tex" id="home">THEKKADY TOURISM</div>
+</div>
+
+
+<div id="mySidenav" class=" w3-allerta sidenav">
+  <a href="#" id="signin" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In </a>
+  <a href="#" id="register" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register </a>
+
+ </div>
+
+ 
+
+
+
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="contain">
+    
+    <div class="ro">
+      <h2 class="cope"  style="text-align:center"><b>Login with Social Media or Manually</b></h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn1 cop">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn1 cop">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn1 cop"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+<br></br>
+
+       <p class="cop"><a href="#" class="w3-button w3-block w3-ripple w3-brown" style="color:white;">Sign Up</a> </p> 
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" class="cope" placeholder="Username" required>
+        <input type="password" name="password" class="cope" placeholder="Password" required>
+        <input type="submit" class="cope" value="Login">
+<br></br>
+<p class="cop"><a href="#" class="w3-button w3-block w3-ripple w3-grey" style="color:white;">Forgot Password</a> </p> 
+      </div>
+      
+    </div>
+    
+           </div>
+  </form>
+</div>
+
+  
+
+
+
+  
+
+</div>
+</header>
+
+<br></br>
+
+
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+
+  
+  <div class="tex2" id="insights" >TOP INSIGHTS OF THEKKADY</div>
+</div>
+
+
+<br></br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+
+<p></p>
+<div class="containery">
+  <div class="mySlid">
+    <div class="numbertext">1 / 6</div>
+    <img class="ger img1" src="  https://c4.wallpaperflare.com/wallpaper/520/720/53/landscape-mountains-family-africa-wallpaper-preview.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlid">
+    <div class="numbertext">2 / 6</div>
+    <img class="ger img1" src="https://www.thekkady.com/files/slides/989730.jpg" style="width:100%" >
+  </div>
+
+  <div class="mySlid">
+    <div class="numbertext">3 / 6</div>
+    <img class="ger img1" src=" https://keralatourism.travel/images/places-to-visit/headers/periyar-lake-thekkady-tourism-entry-fee-timings-holidays-reviews-header.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlid">
+    <div class="numbertext">4 / 6</div>
+    <img class="ger img1" src=" https://c4.wallpaperflare.com/wallpaper/50/738/485/autumn-walk-wallpaper-preview.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlid">
+    <div class="numbertext">5 / 6</div>
+    <img class="ger img1" src=" https://images.thrillophilia.com/image/upload/s--86BsIMEP--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/164/207/original/1563346226_shutterstock_1069038275.jpg.jpg?1563346226" style="width:100%">
+  </div>
+    
+   <div class="mySlid">
+    <div class="numbertext">6/ 6</div>
+    <img class="ger img1" src=" https://kerala.me/wp-content/uploads/2015/12/Spices.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="w3-hide-small rowt">
+    <div class="columnt">
+      <img class="ger1 demot cursor" src="https://c4.wallpaperflare.com/wallpaper/520/720/53/landscape-mountains-family-africa-wallpaper-preview.jpg" width=120 height=85 onclick="currentSlide(1)" alt="PERIYAR NATIONAL PARK">
+    </div>
+    <div class="columnt">
+      <img class="ger1 demot cursor" src="https://www.thekkady.com/files/slides/989730.jpg" style="width:100%" width=120 height=85 onclick="currentSlide(2)" alt="PERIYAR TIGER TRAIL ">
+    </div>
+    <div class="columnt">
+      <img class="ger1 demot cursor" src="https://keralatourism.travel/images/places-to-visit/headers/periyar-lake-thekkady-tourism-entry-fee-timings-holidays-reviews-header.jpg" width=120 height=85 onclick="currentSlide(3)" alt="THEKKADY LAKE">
+    </div>
+    <div class="columnt">
+      <img class="ger1 demot cursor" src="https://c4.wallpaperflare.com/wallpaper/50/738/485/autumn-walk-wallpaper-preview.jpg" width=120 height=85 onclick="currentSlide(4)" alt="NATURE WALKS">
+    </div>
+    <div class="columnt">
+      <img class="ger1 demot cursor" src="https://images.thrillophilia.com/image/upload/s--86BsIMEP--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/164/207/original/1563346226_shutterstock_1069038275.jpg.jpg?1563346226" width=120 height=85 onclick="currentSlide(5)" alt="BAMBOO RAFTING">
+    </div>    
+    <div class="columnt">
+      <img class="ger1 demot cursor" src="https://kerala.me/wp-content/uploads/2015/12/Spices.jpg" width=120 height=85 onclick="currentSlide(6)" alt="SPICES SHOPPING">
+    </div>
+  </div>
+</div>
+
+</div>
+ <div class="col-sm-4 w3-hide-small">
+<p></p>
+<p style="font-size:20px">Home to the country's largest Tiger Reserve- Periyar, Thekkady is a great way to enjoy a jungle vacation.<p></p>
+
+<p style="font-size:20px">Periyar National Park, being a major attraction, is one place where you can enjoy bamboo rafting in the catchment area of Mullaiperiyar Dam, hiking,and shopping!</p><p style="font-size:20px"> Popular for its good eating joints, you can also enjoy its vast stretches of spice gardens and various adventure sports. You can also enjoy a night trek in the wilderness of Periyar. The early morning ride in the boat within the sanctuary is an extremely awesome experience and you might be able to spot wild elephants, bisons, wild boars, various kinds of birds, etc.</p>
+</div>
+</div>
+</div>
+
+<br></br>
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+
+<a href="placesToVisit.html">
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+
+  
+  <div class="tex2" id="places" >PLACES TO VISIT</div>
+</div>
+</a>
+<br></br>
+
+<a href="packages.html">
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+
+  
+  <div class="tex2" id="packages" >THEKKADY PACKAGES</div>
+</div>
+</a>
+<br></br>
+
+<a href="hotels.html">
+<div class="bgimg-5 w3-display-container w3-opacity-min">
+
+  
+  <div class="tex2" id="hotels">TOP HOTELS IN THEKKADY</div>
+</div>
+</a>
+<br></br>
+
+<a href="activities.html">
+<div class="bgimg-6 w3-display-container w3-opacity-min">
+
+  
+  <div class="tex2" id="activities" >TOP ACTIVITIES IN THEKKADY</div>
+</div>
+</a>
+<br></br>
+
+
+
+<div class="bgimg-7 w3-display-container w3-opacity-min">
+
+  
+  <div class="tex2" id="faq">FAQs ON THEKKADY</div>
+</div>
+
+<p></p>
+
+<button type="button" class="collapsible">What are the top hotels in thekkady?</button>
+<div class="content3">
+<p></p>
+<p> The most popular hotels in Thekkady are Aanavilasam Luxury Plantation House, Indhrivanam, Cassells Jungle Resorts, Aranya Homestay, Sopanam Heritage Thekkady, Homeroots. .</p>
+</div>
+<p></p>
+<button type="button" class="collapsible">How much does a package cost for thekkady?</button>
+<div class="content3">
+<p></p>
+<p>The packages for Thekkady start at INR 7464 which can be further customized based on number of people, days, hotel category, vehicle type and customizations.</p>
+</div>
+<p></p>
+<button type="button" class="collapsible">What are the top sightseeing places in thekkady?</button>
+<div class="content3">
+<p></p>
+<p>The top sightseeing places in Thekkady are Periyar National Park, Periyar Tiger Trail, Bamboo Rafting, Thekkady Lake, Border Hiking, Green Park Ayurvedic & Spices Plantation.</p>
+</div>
+<p></p>
+
+<button type="button" class="collapsible">Can you suggest an itinerary for thekkady?</button>
+<div class="content3">
+<p></p>
+<p>Day 1 - Go on the famous Nature Walk, a guided tour through the forests in the morning. After that, go boating on the Periyar lake. Try the elephant rides that are offered.  Wander around the town area and check out the plantations. In the evening, be sure to catch a Kathakali performance held near Periyar Meadows.
+Day2 - Visit the Periyar Wildlife Sanctuary. If possible check out the Periyar Tiger Trail. Also, check out the Kalari Payattu performance that takes place at the kadathanadan Kalari Center at Kumily.</p>
+</div>
+
+
+
+</div>
+
+<div class="col-sm-3">
+
+  <div class="container">
+    <h3 class="w3-hide-small w3-allerta">Nearby Places</h3>
+    </div>
+    <p></p>
+       <div class="container"> 
+      <div class="row">
+        <div class="w3-hide-small col-sm-6">
+    <!-- MUNNAR -->
+    
+    <a href=" https://www.holidify.com/places/munnar/">
+          <img src="https://www.holidify.com/images/bgImages/MUNNAR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/munnar/">Munnar</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/munnar/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+    <br></br>
+    <!-- VAGAMON -->
+    
+    <a href=" https://www.holidify.com/places/vagamon/">
+    <img src="https://www.holidify.com/images/bgImages/VAGAMON.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/vagamon/">Vagamon</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/vagamon/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+    <br></br>
+    <!-- PEERUMEDU -->
+    
+    <a href=" https://www.holidify.com/places/peermede/">
+    <img src="https://www.holidify.com/images/bgImages/PEERMEDE.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/peermede/">Peerumedu</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/peermede/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+    
+    <br></br>
+    <!-- SABARIMALA -->
+    
+    <a href=" https://www.holidify.com/places/sabarimala/">
+    <img src="https://www.holidify.com/images/compressed/2182.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/sabarimala/">Sabarimala</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/sabarimala/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+    
+    
+    <br></br>
+    <!-- KODAIKANAL -->
+    
+    <a href=" https://www.holidify.com/places/kodaikanal/">
+    <img src="https://www.holidify.com/images/bgImages/KODAIKANAL.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/kodaikanal/">Kodaikanal</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kodaikanal/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+    
+    <br></br>
+    <!-- KOLUKKUMALAI -->
+    
+    <a href=" https://www.holidify.com/places/kolukkumalai/">
+    <img src="https://www.holidify.com/images/bgImages/KOLUKKUMALAI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/kolukkumalai/">Kolukkumalai</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kolukkumalai/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+    
+    <br></br>
+    <!-- VALPARAI-->
+    
+    <a href=" https://www.holidify.com/places/valparai/">
+    <img src="https://www.holidify.com/images/bgImages/VALPARAI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/valparai/">Valparai</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/valparai/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+    
+    
+    <br></br>
+    <!-- KOCHI-->
+    
+    <a href=" https://www.holidify.com/places/kochi/">
+    <img src="https://www.holidify.com/images/bgImages/KOCHI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/kochi/">Kochi</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kochi/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+    
+    
+    <br></br>
+    <!-- chembra-peak-->
+    
+    <a href=" https://www.holidify.com/places/wayanad/chembra-peak-sightseeing-3946.html">
+    <img src="https://www.holidify.com/images/cmsuploads/compressed/Chembra-Peak-Wayanad_20180119201400.png" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/chembra-peak-sightseeing-3946.html">Chembra_Peak</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/chembra-peak-sightseeing-3946.html">Attractions</a></b></p>
+    
+    <br></br>
+    <!-- Kuruva-Dweep-->
+    
+    <a href=" https://www.holidify.com/places/wayanad/kuruva-dweep-sightseeing-3948.html">
+    <img src="https://www.holidify.com/images/cmsuploads/compressed/Kuruva-Dweep_20180215163207.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/kuruva-dweep-sightseeing-3948.html">Kuruva_Dweep</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/kuruva-dweep-sightseeing-3948.html">Attractions</a></b></p>
+    
+    <br></br>
+    <!-- edakkal-caves-->
+    
+    <a href=" https://www.holidify.com/places/wayanad/edakkal-caves-sightseeing-3947.html">
+    <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_796295632_20200116122849_20200116122911.png" class="rounded" alt="Cinque Terre" width="120" height="110">
+    </a>
+    <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/edakkal-caves-sightseeing-3947.html">Edakkal_Caves</a></b></p>
+    <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/edakkal-caves-sightseeing-3947.html">Attractions</a></b></p>
+    
+    
+    
+    <br></br>
+    
+
+    
+
+</div>
+
+ <div class="w3-hide-small col-sm-6">
+   <!-- IDUKKI -->
+
+<a href=" https://www.holidify.com/places/idukki/">
+  <img src="https://www.holidify.com/images/bgImages/IDUKKI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/idukki/">Idukki</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/idukki/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  <br></br>
+  <!-- ALLEPPEY -->
+  
+  <a href=" https://www.holidify.com/places/alleppey/">
+  <img src="https://www.holidify.com/images/bgImages/ALLEPPEY.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/">Alleppey</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  <br></br>
+  <!-- KUMILY -->
+  
+  <a href=" https://www.holidify.com/places/kumily/">
+  <img src="https://www.holidify.com/images/bgImages/KUMILY.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/kumily/">Kumily</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kumily/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!-- KUMARAKOM -->
+  
+  <a href=" https://www.holidify.com/places/kumarakom/">
+  <img src="https://www.holidify.com/images/bgImages/KUMARAKOM.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/kumarakom/">Kumarakom</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kumarakom/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--Kalvari_Mount -->
+  
+  <a href=" https://www.holidify.com/places/idukki/kalvari-mount-sightseeing-1257088.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/800px-Kalvari_Mount_Idukki_0253_20190728234932.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/idukki/kalvari-mount-sightseeing-1257088.html">Kalvari_Mount</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/idukki/kalvari-mount-sightseeing-1257088.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--kuttikanam -->
+  
+  <a href=" https://www.holidify.com/places/idukki/kuttikanam-sightseeing-1256665.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/Tea_Plantations_at_Kuttikkanam2C_near_Thekkady_20190720134725.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/idukki/kuttikanam-sightseeing-1256665.html">Kuttikanam</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/idukki/kuttikanam-sightseeing-1256665.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--eravikulam -->
+  
+  <a href=" https://www.holidify.com/places/munnar/eravikulam-rajamalai-national-park-sightseeing-2895.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/E1_20170907143409.PNG" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/images/cmsuploads/compressed/E1_20170907143409.PNG">Eravikulam_Park</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/munnar/eravikulam-rajamalai-national-park-sightseeing-2895.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--anamudi-peak -->
+  
+  <a href=" https://www.holidify.com/places/munnar/anamudi-peak-sightseeing-2886.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/2044273648_cb8749be88_b_20190717171039.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/munnar/anamudi-peak-sightseeing-2886.html">Anamudi_peak</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/munnar/anamudi-peak-sightseeing-2886.html">Attractions</a></b></p>
+  
+  
+  <br></br>
+  <!--neelimala-viewpoint -->
+  
+  <a href=" https://www.holidify.com/places/wayanad/neelimala-viewpoint-sightseeing-122822.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/32008225212_f27245267c_b_20190412141542.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/neelimala-viewpoint-sightseeing-122822.html">Neelimala_Viewpoint</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/neelimala-viewpoint-sightseeing-122822.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--alappuzha-beach -->
+  
+  <a href=" https://www.holidify.com/places/alleppey/alappuzha-beach-sightseeing-1123.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/A12_20170925211413.PNG" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/alappuzha-beach-sightseeing-1123.html">Alappuzha_Beach</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/alappuzha-beach-sightseeing-1123.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--Vembanad_lake -->
+  
+  <a href=" https://www.holidify.com/places/alleppey/vembanad-sightseeing-1133.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/Scenes_fom_Vembanad_lake_en_route_Alappuzha_Kottayam48_20180324212726.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/vembanad-sightseeing-1133.html">Vembanad_lake</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/vembanad-sightseeing-1133.html">Attractions</a></b></p>
+  
+  <br></br>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+</div>
+</div>
+
+<br></br>
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+  
+  
+  
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction1() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <script>
+  // Change style of navbar on scroll
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+      }
+  }
+  
+  
+  </script>
+  
+  <script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function toggleFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  </script>
+  
+  
+  <script>
+  function myFunctio() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topna") {
+      x.className += " responsive";
+    } else {
+      x.className = "topna";
+    }
+  }
+  </script>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlid");
+    var dots = document.getElementsByClassName("demot");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" activet", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " activet";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  
+  
+  <script>
+  // Create a "close" button and append it to each list item
+  var myNodelist = document.getElementsByTagName("LI");
+  var i;
+  for (i = 0; i < myNodelist.length; i++) {
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close2";
+    span.appendChild(txt);
+    myNodelist[i].appendChild(span);
+  }
+  
+  // Click on a close button to hide the current list item
+  var close = document.getElementsByClassName("close2");
+  var i;
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+  
+  // Add a "checked" symbol when clicking on a list item
+  var list = document.querySelector('ul');
+  list.addEventListener('click', function(ev) {
+    if (ev.target.tagName === 'LI') {
+      ev.target.classList.toggle('checked');
+    }
+  }, false);
+  
+  // Create a new list item when clicking on the "Add" button
+  function newElement() {
+    var li = document.createElement("li");
+    var inputValue = document.getElementById("myInput").value;
+    var t = document.createTextNode(inputValue);
+    li.appendChild(t);
+    if (inputValue === '') {
+      alert("You must write something!");
+    } else {
+      document.getElementById("myUL").appendChild(li);
+    }
+    document.getElementById("myInput").value = "";
+  
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close2";
+    span.appendChild(txt);
+    li.appendChild(span);
+  
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+  }
+  </script>
+  
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active3");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
+  
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16 w3-opacity w3-hover-opacity-off">
+ 
+  
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+ 
+<div><h3> SARANGU SAI SURAJ</h3>
+<p></p>
+
+<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</div>
+  
+</footer>
+</body>
+</html>
+

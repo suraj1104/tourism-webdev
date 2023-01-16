@@ -1,0 +1,1932 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <!-- bootstrap-socia -->
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- bootstrap-socia -->
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top"> 
+  <div class="w3-bar w3-black" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-left" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+     
+
+    <div class="w3-dropdown-hover ">
+    <a href="index.html" class=" w3-hide-small raj w3-allerta w3-button">HOME <i class="fa fa-home"></i></a>
+     
+    </div>
+
+  
+  
+
+
+     <div class="w3-dropdown-hover ">
+      <a href="placesToVisit.html" class=" w3-hide-small raj w3-allerta w3-button">PLACES TO VISIT </i></a>
+      
+    </div>
+
+     <div class="w3-dropdown-hover ">
+      <a href="packages.html" class=" w3-hide-small raj w3-allerta w3-button">PACKAGES </i></a>
+     
+    </div>
+
+      <div class="w3-dropdown-hover ">
+      <a href="hotels.html" class=" w3-hide-small raj w3-allerta w3-button">HOTELS</i></a>
+     
+    </div>
+
+
+     <div class="w3-dropdown-hover ">
+      <a href="activities.html" class=" w3-hide-small raj w3-allerta w3-button">ACTIVITIES</i></a>
+     
+    </div>
+
+
+   
+
+
+  
+ </div>
+
+
+
+  
+
+ <!-- Navbar on small screens -->
+  <div id="navDemo" class=" w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="placesToVisit.html" class="w3-bar-item  w3-button" onclick="toggleFunction()">PLACES TO VISIT</a>
+   <a href="packages.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">PACKAGES</a>
+  <a href="hotels.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">HOTELS</a>
+<a href="activities.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">ACTIVITIES</a>
+<a href="#faq" class="w3-bar-item w3-button" onclick="toggleFunction()">FAQs</a>
+ <a href="#" class="w3-bar-item w3-button"></a>
+   
+  </div>
+</div>
+
+
+  
+  
+
+<div class="image-container">
+  <div class="tex" id="home">THEKKADY TOURISM</div>
+</div>
+
+
+<div id="mySidenav" class=" w3-allerta sidenav">
+  <a href="#" id="signin" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In</a>
+  <a href="#" id="register" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register </a>
+ 
+</div>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="contain">
+    
+    <div class="ro">
+      <h2 class="cope"  style="text-align:center"><b>Login with Social Media or Manually</b></h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn1 cop">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn1 cop">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn1 cop"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+<br></br>
+
+       <p class="cop"><a href="#" class="w3-button w3-block w3-ripple w3-brown" style="color:white;">Sign Up</a> </p> 
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" class="cope" placeholder="Username" required>
+        <input type="password" name="password" class="cope" placeholder="Password" required>
+        <input type="submit" class="cope" value="Login">
+<br></br>
+<p class="cop"><a href="#" class="w3-button w3-block w3-ripple w3-grey" style="color:white;">Forgot Password</a> </p> 
+      </div>
+      
+    </div>
+    
+           </div>
+  </form>
+</div>
+
+  
+
+
+ 
+  
+</div>
+
+  </div>
+
+</div>
+</header>
+
+<br></br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+    
+      <div class="bgimg-3 w3-display-container w3-opacity-min">
+
+  
+        <div class="tex2" id="places" >PLACES TO VISIT</div>
+      </div>
+      
+      <br></br>
+     <!-- MAIN (Center website) -->
+<div class="main">
+  <div id="myBtnContainer">
+  
+   <div class="dropdown">
+    <button onclick="myFunction1()" class="dropbtn">Attraction Type</button>
+    <div id="myDropdown" class="dropdown-content">
+  <a class="btn active" onclick="filterSelection('all')" href="#home">Show all</a>
+     
+      <a class="btn" onclick="filterSelection('wildlife')"  href="#about">Wildlife</a>
+      
+      <a class="btn" onclick="filterSelection('activity')" href="#contact">Activity</a>
+       <a class="btn" onclick="filterSelection('rivers')" href="#contact">Rivers and Lakes</a>
+       <a class="btn" onclick="filterSelection('park')" href="#contact">Park</a>
+       <a class="btn" onclick="filterSelection('waterfall')" href="#contact">Waterfall</a>
+       <a class="btn" onclick="filterSelection('sightseeing')" href="#contact">SightSeeing</a>
+       <a class="btn" onclick="filterSelection('viewpoint')" href="#contact">ViewPoint</a>
+     <a class="btn" onclick="filterSelection('culture')" href="#contact">Cultural Centres</a>
+  
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="rowe">
+    <div class="column wildlife">
+      <div class="content">
+         <p class="rap1"><b>Periyar National Park</b></p>
+   <div class="containe">
+         
+       <a href="https://www.holidify.com/places/thekkady/periyar-national-park-sightseeing-3744.html "> <img class="im reg" src="https://c4.wallpaperflare.com/wallpaper/520/720/53/landscape-mountains-family-africa-wallpaper-preview.jpg"  alt="Mountains"></a>
+        <div class="topleft w3-tag w3-red ">Must Visit</div>
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.7 /5</div>
+  </div>
+        
+        
+      
+   <p>  <p class="coll"><b>2km from city centre</b></p><p>Spread across an area of 300 square miles, Periyar National Park is covered by lush evergreen and deciduous forests. </p><p class="w3-hide-small">It serves  as home to various animals such as deer, elephants, sambar, Nilgiri Langurs, etc.</p><p><a href="https://www.holidify.com/places/thekkady/periyar-national-park-sightseeing-3744.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+         <div class="containe">
+  <p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+  </div>
+   </p>
+     
+     
+     </div>
+    </div>
+    
+    
+    
+  <div class="column wildlife">
+      <div class="content">
+         <p class="rap1"><b>Periyar Tiger Trail</b></p>
+         
+  <div class="containe">  
+  
+      <a href=" https://www.holidify.com/places/thekkady/periyar-tiger-trail-sightseeing-3745.html">  <img class="im reg" src="https://www.thekkady.com/files/slides/989730.jpg"  alt="Mountains" ></a>
+  
+        <div class="topleft w3-tag w3-red ">Must Visit</div>
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.5 /5</div>
+  
+  </div>
+        
+        
+      
+       
+    <p>  <p class="coll"><b>2km from city centre</b></p><p>Tourists trek along the Tiger Trail and thick vegetation of the reserve along with guides and Forest Department officials. </p><p class="w3-hide-small">It is an experience and worth remembering. Tourists can also spot elephants, sambhars, and tigers there.</p><p><a href="https://www.holidify.com/places/thekkady/periyar-tiger-trail-sightseeing-3745.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+         <div class="containe">
+  <p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+  </div>
+   </p>
+     
+     
+     </div>
+    </div>
+  
+  
+  
+  <div class="column activity">
+      <div class="content">
+         <p class="rap1 w3-allerta"><b>Bamboo Rafting</b></p>
+         
+  <div class="containe">  
+  
+     <a href="https://www.holidify.com/places/thekkady/bamboo-rafting-sightseeing-3740.html ">   <img class=" reg im" src="https://www.holidify.com/images/cmsuploads/compressed/800px-Bamboo_Rafting_during_guided_tour_through_Periyar_Wild_Life_Sanctury_20190802151443.JPG"  alt="Mountains"></a>
+  
+        <div class="topleft w3-tag w3-red ">Must Try</div>
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.2 /5</div>
+  
+  </div>
+        
+        
+      
+       
+    <p>  <p class="coll"><b>1km from city centre</b></p><p>Bamboo Rafting is a perfect activity for all the water sports enthusiasts. The facility is offered by the Forest Department.</p><p class="w3-hide-small">  At Thekkady  one can enjoy this activity in the catchment area of the national park.</p><p><a href="https://www.holidify.com/places/thekkady/bamboo-rafting-sightseeing-3740.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+         <div class="containe">
+  <p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+  </div>
+   </p>
+     
+     
+     </div>
+    </div>
+  
+  
+  <div class="column rivers">
+      <div class="content">
+         <p class="rap1 w3-allerta"><b>Thekkady Lake</b></p>
+         
+  <div class="containe">  
+  
+     <a href="https://www.holidify.com/places/thekkady/thekkady-lake-sightseeing-3746.html ">   <img class="im reg" src="https://keralatourism.travel/images/places-to-visit/headers/periyar-lake-thekkady-tourism-entry-fee-timings-holidays-reviews-header.jpg"  alt="Mountains" ></a>
+  
+        <div class="topleft w3-tag w3-red ">Must Visit</div>
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.0 /5</div>
+  
+  </div>
+        
+        
+      
+       
+    <p>  <p class="coll"><b>5km from city centre</b></p><p>Tucked in the heart of the jungle, Thekkady or Periyar Lake is famous for its wide varieties of wildlife. You can also take a boat ride here.<p class="w3-hide-small"> It is this reservoir that provides sufficient water to the nearby areas and the forest.
+  
+  </p></p><p><a https://www.holidify.com/places/thekkady/thekkady-lake-sightseeing-3746.html" class="rap w3-button w3-ripple w3-red">Read more</a> </p>  
+         <div class="containe">
+  <p><button class=" rap  bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+  </div>
+   </p>
+     
+     
+     </div>
+    </div>
+  
+  
+  <div class="column activity">
+      <div class="content">
+         <p class="rap1 w3-allerta"><b>Border Hiking</b></p>
+         
+  <div class="containe">  
+  
+     <a href=" https://www.holidify.com/places/thekkady/border-hiking-sightseeing-3741.html">   <img class="im reg" src="https://www.holidify.com/images/compressed/5825.jpg"  alt="Mountains" ></a>
+  
+        
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.8 /5</div>
+  
+  </div>
+        
+        
+      
+       
+    <p>  <p class="coll"><b>1km from city centre</b></p><p>A trekking program conducted into the wilderness, border hiking is offered by various agencies and also by the Forest Department.</p><p class="w3-hide-small">It is conducted on the high terrains of the forests .</p><p><a href="https://www.holidify.com/places/thekkady/border-hiking-sightseeing-3741.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+         <div class="containe">
+  <p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+  </div>
+   </p>
+     
+     
+     </div>
+    </div>
+  
+  
+  <div class="column park">
+      <div class="content">
+         <p class=" w3-allerta" style="font-size:13px"><b>Green Park Ayurvedic And Spices Plantation</b></p>
+         
+  <div class="containe">  
+  
+       <a href=" https://www.holidify.com/places/thekkady/green-park-ayurvedic--spices-plantation-sightseeing-123872.html"> <img class="im reg" src="https://www.holidify.com/images/foreign/compressed/attr_123872.jpg"  alt="Mountains"></a>
+  
+        
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.7 /5</div>
+  
+  </div>
+        
+        
+      
+       
+    <p>  <p class="coll"><b>3km from city centre</b></p><p>Green Park Ayurvedic & Spices Plantation is an ecological park founded to grow medicinal herbs and spices.</p><p class="w3-hide-small"> The knowledge of growing them is with the help of advanced agricultural techniques.</p><p><a href="https://www.holidify.com/places/thekkady/green-park-ayurvedic--spices-plantation-sightseeing-123872.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+         <div class="containe">
+  <p><button class="rap  bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+  </div>
+   </p>
+     
+     
+     </div>
+    </div>
+  
+  
+  <div class="column waterfall">
+      <div class="content">
+         <p class=" rap1 w3-allerta"><b>Anakkara</b></p>
+         
+  <div class="containe">  
+  
+      <a href=" https://www.holidify.com/places/idukki/anakkara-sightseeing-2066.html">  <img class="im reg" src="https://www.holidify.com/images/compressed/4473.jpg"  alt="Mountains" ></a>
+  
+        
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.8 /5</div>
+  
+  </div>
+        
+        
+      
+       
+    <p>  <p class="coll"><b>2km from city centre</b></p><p>A small village in the Idukki district, Anakarra is just about 50 sq. km in area. Situated approximately 18 km from Idduki wildlife sanctuary.</p><p class="w3-hide-small"> This place is famous for its spice plantations and picturesque waterfalls. It is one of the 36 distinct places identified by Government of India .
+  
+  </p><p><a href="https://www.holidify.com/places/idukki/anakkara-sightseeing-2066.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+         <div class="containe">
+  <p><button class="rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+  </div>
+   </p>
+     
+     
+     </div>
+    </div>
+  
+  
+    <!-- END ROWE -->
+  </div>
+  
+  
+  
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-4 w3-display-container w3-opacity-min">
+  
+    
+      <div class="tex2" id="packages" >THEKKADY PACKAGES</div>
+  </div>
+    
+  
+  
+  
+  
+  <div class="rowe">
+  
+    <!-- FIRST PACKAGE-->
+  
+  <div class="column wildlife activity rivers park waterfall sightseeing viewpoint culture ">
+      <div class="content">
+         <p class="rap1 w3-allerta"><b>Splendid Thekkady And Munnar</b></p>
+         
+  <div class="containe">  
+  
+        <img class="im reg" src="https://www.holidify.com/images/cmsuploads/square/shutterstock_1171771060_20191104163238.jpg"  alt="Mountains" >
+  
+  <div class="topleft w3-tag w3-round w3-red" style="padding:3px">
+      <div class="w3-tag w3-round w3-red w3-border w3-border-white">
+        Limited Offer
+      </div>
+    </div>
+        
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.4 /5</div>
+  
+  </div>
+        
+        
+      <p></p>
+     <p style="color:grey"> 3 Nights</p> 
+  <p><b>Munnar(2N) ->Thekkady(1N)</b></p>
+    <p ><span class="w3-tag w3-teal">8,499</span>  onwards </p><p><button class="w3-button w3-ripple w3-orange">Book Now</button> </p>  
+         
+     
+     
+     </div>
+    </div>
+  
+  
+  <!-- SECOND PACKAGE-->
+  
+  <div class="column wildlife activity rivers park waterfall sightseeing viewpoint culture">
+      <div class="content">
+         <p class=" rap1 w3-allerta"><b>Admirable Thekkady And Kochi</b></p>
+         
+  <div class="containe">  
+  
+        <img class="im reg" src="https://www.holidify.com/images/cmsuploads/square/shutterstock_107173019_20190312124113.jpg"  alt="Mountains" >
+  
+  
+        
+        <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.0 /5</div>
+  
+  </div>
+        
+        
+      <p></p>
+     <p style="color:grey"> 3 Nights</p> 
+  <p><b>Kochi(1N) ->Thekkady(2N)</b></p>
+    <p ><span class="w3-tag w3-teal">7,499</span>  onwards </p><p><button class="w3-button w3-ripple w3-orange">Book Now</button> </p>  
+         
+     
+     
+     </div>
+    </div>
+  
+    <!-- END ROWE(second time)-->
+</div>
+<p><button class="w3-button  w3-block w3-ripple w3-indigo"><b>View All Packages For Thekkady</b></button> </p>  
+
+<br></br>
+
+
+<!-- start ROWE(second time)-->
+<div class="rowe">
+<div class="column culture">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Mudra Cultural Centre</b></p>
+       
+<div class="containe">  
+
+    <a href="https://www.holidify.com/places/thekkady/mudra-cultural-centre-sightseeing-123873.html ">  <img class="im reg" src="https://www.holidify.com/images/cmsuploads/compressed/kathakali_cont_2_20190415105528.jpg"  alt="Mountains" ></a>
+
+      <div class="topleft w3-tag w3-red ">Must Visit</div>
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.0 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>1km from city centre</b></p><p>Mudra Cultural Centre is famous for cultural events that specifically involve the traditional dance form, Kathakali and India's oldest form of martial arts, Kalari.</p><p class="w3-hide-small"> Tourists can also witness the laborious preparations the artists have to make before  their  performances. </p><p><a href="https://www.holidify.com/places/thekkady/mudra-cultural-centre-sightseeing-123873.html" class="rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column culture">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Kadathanadan Kalari Centre</b></p>
+       
+<div class="containe">  
+
+    <a href=" https://www.holidify.com/places/thekkady/kadathanadan-kalari-centre-sightseeing-123875.html" >  <img class="im reg" src="https://www.holidify.com/images/foreign/compressed/attr_123875.jpg"  alt="Mountains"></a>
+
+     
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.8 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>1km from city centre</b></p><p>Kadathanadan Kalari Centre is a renowned centre of the traditional form of martial arts, Kalaripayyattu which was invented by Sage Parshuram.</p><p class="w3-hide-small"> The programs arranged by the centre are specifically to showcase the ancient form of self-defence .</p><p><a href="https://www.holidify.com/places/thekkady/kadathanadan-kalari-centre-sightseeing-123875.html" class="rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column viewpoint">
+    <div class="content">
+       <p class=" rap1 w3-allerta"><b>Chellarkovil View Point</b></p>
+       
+<div class="containe">  
+
+     <a href=" holidify.com/places/thekkady/chellarkovil-viewpoint-sightseeing-123874.html"> <img class="im reg" src="https://www.holidify.com/images/foreign/compressed/attr_123874.jpg"  alt="Mountains" ></a>
+
+      
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.6 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>8km from city centre</b></p><p>Chellarkovil Viewpoint is famous for a stunning view of hilly terrains covered in lush green vegetation and an enchanting waterfall.</p><p class="w3-hide-small"> The viewpoint has a watchtower with a telescope installed on a terrace which allows tourists to get a splendid  view .</p><p><a href="holidify.com/places/thekkady/chellarkovil-viewpoint-sightseeing-123874.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column sightseeing">
+    <div class="content">
+       <p class=" rap1 w3-allerta"><b>Vandiperiyar</b></p>
+       
+<div class="containe">  
+
+   <a href="https://www.holidify.com/places/thekkady/vandiperiyar-sightseeing-123877.html ">   <img class="im reg" src="https://www.holidify.com/images/cmsuploads/compressed/attr_123877_20200220112046.jpg"  alt="Mountains" ></a>
+
+     
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.9 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>9km from city centre</b></p><p>Vandeperiyar is a quaint, little town in Idukki District, Kerala, 18km from Thekkady. At an altitude of 2743ft above sea level, this hilly town is cool.</p><p class="w3-hide-small"> It is a delight for travellers who enjoy exploring plantations and spice farms. .</p><p><a href="https://www.holidify.com/places/thekkady/vandiperiyar-sightseeing-123877.html" class="rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column sightseeing">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Pandikuzhi</b></p>
+       
+<div class="containe">  
+
+      <a href=" https://www.holidify.com/places/thekkady/pandikuzhi-sightseeing-123876.html" ><img class="im reg" src="https://www.holidify.com/images/cmsuploads/compressed/5329319229_509bf3034b_b_20190415104713.jpg"  alt="Mountains" ></a>
+
+     
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.8 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>3km from city centre</b></p><p>Pandikuzhi is a humble little village famous for its picturesque beauty. Its captivating natural landscape, the thrilling terrain, a pristine stream of water flowing. </p><p class="w3-hide-small"> It flows through the valley covered with lush green foliage makes Pandikuzhi is a famous picnic destination.
+
+</p><p><a href="https://www.holidify.com/places/thekkady/pandikuzhi-sightseeing-123876.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column activity">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Jungle Night Patrol</b></p>
+       
+<div class="containe">  
+
+    <a href="https://www.holidify.com/places/thekkady/jungle-night-patrol-sightseeing-1254169.html ">  <img class="im reg" src="https://www.holidify.com/images/cmsuploads/compressed/jungle-scout-300x187_20190214172811.jpg"  alt="Mountains" ></a>
+
+      <div class="topleft w3-tag w3-red ">Must Try</div>
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.2 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>3km from city centre</b></p><p>Jungle Night Patrol is one of the top thrilling things to do in Thekkady. It is a trekking activity which begins at two points which are:-</p><p class="w3-hide-small"> Periyar National Park- Entrance , Gate of the Periyar Tiger Reserve and from the Bamboo Grooves. The activity is performed under  supervision .</p><p><a href="https://www.holidify.com/places/thekkady/jungle-night-patrol-sightseeing-1254169.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column activity">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Nature Walks</b></p>
+       
+<div class="containe">  
+
+     <a href="https://www.holidify.com/places/thekkady/nature-walks-sightseeing-1254170.html "> <img class="im reg" src="https://www.holidify.com/images/cmsuploads/compressed/Forest_Walks_-_panoramio_20190214173519.jpg"  alt="Mountains" ></a>
+
+      <div class="topleft w3-tag w3-red ">Must Visit</div>
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.3 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>2km from city centre</b></p><p>Nature Walks is another one of the top things to do in Thekkady and a very popular activity in the region. </p><p class="w3-hide-small">Walking through the stunning wildlife and vegetation of the sleepy town, you can come across varied varieties of flora and fauna, wild animals and the like.  .</p><p><a href="https://www.holidify.com/places/thekkady/nature-walks-sightseeing-1254170.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column sightseeing">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Spice Shopping</b></p>
+       
+<div class="containe">  
+
+     <a href="https://www.holidify.com/places/thekkady/spice-shopping-sightseeing-1254171.html "> <img class="im reg" src="https://www.holidify.com/images/cmsuploads/compressed/f4bf478f0ee8aa096c60b7d20b0d-1418280_20190214174623.jpg!d"  alt="Mountains" ></a>
+
+      <div class="topleft w3-tag w3-red ">Must Visit</div>
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.2 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>2km from city centre</b></p><p>Spice Shopping is one of the most popular things to do in Thekkady, for the tourists.</p><p class="w3-hide-small">The region is known for its rich and authentic spices, and you can buy the most expensive and aromatic spices here at very cheap rates.</p><p><a href="https://www.holidify.com/places/thekkady/spice-shopping-sightseeing-1254171.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column activity">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Tribal Heritage Walk</b></p>
+       
+<div class="containe">  
+
+   <a href="https://www.holidify.com/places/thekkady/tribal-heritage-walk-sightseeing-1254172.html ">   <img class="im reg" src="https://www.holidify.com/images/cmsuploads/compressed/Apatani_tribal_women_20190214175321.jpg"  alt="Mountains" ></a>
+
+      
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.8 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>6km from city centre</b></p><p>Tribal Heritage Walks are organized in Thekkady to introduce the tourists to the local culture and tradition of the place.</p><p class="w3-hide-small"> The activity requires the volunteers to trek through the tribal village with a help of a tribal guide.</p><p><a href="https://www.holidify.com/places/thekkady/tribal-heritage-walk-sightseeing-1254172.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+
+<div class="column activity">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Jungle Camp</b></p>
+       
+<div class="containe">  
+
+    <a href=" https://www.holidify.com/places/thekkady/jungle-camp-sightseeing-1257208.html">  <img class="im reg" src="https://www.holidify.com/images/cmsuploads/compressed/camping_tent_forest_tree_smoke-138438_20190214180016.jpg!d"  alt="Mountains" ></a>
+
+      <div class="topleft w3-tag w3-red ">Must Try</div>
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.2 /5</div>
+
+</div>
+      
+      
+    
+     
+  <p>  <p class="coll"><b>3km from city centre</b></p><p>Jungle Camping is one of the top thrilling things to do in Thekkady. The camps are organized on the banks of Periyar River.</p><p class="w3-hide-small">To be exact it is in Vallakadavu at the river viewpoint in the vicinity of Periyar National Park. </p><p><a href="https://www.holidify.com/places/thekkady/jungle-camp-sightseeing-1257208.html" class=" rap w3-button w3-ripple w3-red">Read more</a> </p>  
+       <div class="containe">
+<p><button class=" rap bottomright w3-button w3-border w3-round w3-border-blue w3-hover-blue ">Book This Activity </button> </p>
+</div>
+ </p>
+   
+   
+   </div>
+  </div>
+
+<!-- END rowe -->
+</div>
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-5 w3-display-container w3-opacity-min">
+
+  
+  <div class="tex2" id="hotels">TOP HOTELS IN THEKKADY</div>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-4">
+<p></p>
+ <h4><div class=" w3-tag w3-teal ">Check In</div></h4>
+  <input class="w3-allerta w3-input w3-padding w3-border" type="date" min="2020-06-22" placeholder="Date " required name="date" value="MONTH" >
+
+
+</div>
+
+<div class="col-sm-4">
+<p></p>
+<h4><div class=" w3-tag w3-red ">Check Out</div></h4>
+<input class="w3-allerta w3-input w3-padding w3-border" type="date" min="2020-06-22" placeholder="Date " required name="date" value="MONTH" >
+
+</div>
+
+
+<div class="col-sm-4">
+<br></br>
+
+<p><button class="w3-button  w3-block w3-ripple w3-indigo"><b>Search Hotels</b></button> </p>
+</div>
+
+<!-- END OF INNER CONTAINER AND ROW -->
+</div>
+</div>
+<p></p>
+<!-- start rowe -->
+<div class="rowe">
+
+<!-- FIRST HOTEL-->
+
+<div class="column wildlife activity rivers park waterfall sightseeing viewpoint culture">
+  <div class="content">
+     <h4 class="w3-allerta"><b>Misty Green Homestay</b></h4>
+     
+<div class="containe">  
+
+    <img class="im reg" src="https://cf.bstatic.com/images/hotel/max1024x768/719/71923154.jpg" >
+
+<div class="topleft w3-tag w3-round w3-red" style="padding:3px">
+  <div class="w3-tag w3-round w3-red w3-border w3-border-white">
+    New Deal
+  </div>
+</div>
+    <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">9.0 /10</div>
+
+</div>
+    
+    
+  <p></p>
+
+<p><b>Double Room</b></p>
+<p style="color:grey"> Queen-Sized Bed</p> 
+<p ><span class="w3-tag w3-teal">1,499</span>  onwards </p>
+     
+<p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i> </p> 
+ <p><button class="w3-button w3-ripple w3-indigo">Book Now</button> </p>  
+ </div>
+</div>
+
+
+<!-- SECOND HOTEL-->
+
+<div class="column wildlife activity rivers park waterfall sightseeing viewpoint culture">
+  <div class="content">
+     <h4 class="w3-allerta"><b>Thekkady Homestay</b></h4>
+     
+<div class="containe">  
+
+    <img class="im reg" src="https://cf.bstatic.com/images/hotel/max1024x768/147/147705068.jpg"  alt="Mountains" >
+
+
+    
+    <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">9.3 /10</div>
+
+</div>
+    
+    
+  <p></p>
+
+<p><b>Deluxe Room</b></p>
+<p style="color:grey"> King-Sized Bed</p> 
+<p ><span class="w3-tag w3-teal">2,499</span>  onwards </p>
+     
+<p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i> <i class="fa fa-glass"></i> <i class="fa fa-cutlery"></i></p> 
+ <p><button class="w3-button w3-ripple w3-indigo">Book Now</button> </p>  
+ </div>
+</div>
+
+<!-- END ROWE(third time)-->
+</div>
+<p><button class="w3-button  w3-block w3-ripple w3-teal"><b>View All Hotels In Thekkady</b></button> </p>  
+
+<br></br>
+<br></br>
+<div id="list"></div>
+<div id="myDIV" class="header1">
+  <h2 class="w3-allerta" style="margin:5px"> To Visit List</h2>
+  <input class="input2" type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="w3-allerta addBtn2"><b>ADD</b></span>
+</div>
+
+<ul id="myUL">
+  <li>Periyar Tiger Trail</li>
+  <li class="checked">Periyar National Park</li>
+  <li>Border Hiking</li>
+  <li>Bamboo Rafting</li>
+  <li>Jungle Night Patrol</li>
+  <li>Nature Walks</li>
+</ul>
+
+<br></br>
+
+   
+
+
+
+
+<!-- end of first col-sm-9-->
+      </div>
+    
+<!-- start ROWE(fourth time)-->
+
+<!-- start ROWE(fourth time)-->
+<div class="rowe">
+
+
+
+
+
+
+  <!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+
+
+
+
+
+
+
+
+  <!-- END GRID -->
+<!-- END MAIN -->
+
+
+
+
+
+ 
+
+
+      <div class=" col-sm-3">
+        <div class="container">
+          <h3 class="w3-allerta">Nearby Places</h3>
+          </div>
+          <p></p>
+             <div class="container"> 
+            <div class="row">
+              <div class="w3-hide-small col-sm-6">
+          <!-- MUNNAR -->
+          
+          <a href=" https://www.holidify.com/places/munnar/">
+                <img src="https://www.holidify.com/images/bgImages/MUNNAR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/munnar/">Munnar</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/munnar/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+          <br></br>
+          <!-- VAGAMON -->
+          
+          <a href=" https://www.holidify.com/places/vagamon/">
+          <img src="https://www.holidify.com/images/bgImages/VAGAMON.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/vagamon/">Vagamon</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/vagamon/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+          <br></br>
+          <!-- PEERUMEDU -->
+          
+          <a href=" https://www.holidify.com/places/peermede/">
+          <img src="https://www.holidify.com/images/bgImages/PEERMEDE.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/peermede/">Peerumedu</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/peermede/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+          
+          <br></br>
+          <!-- SABARIMALA -->
+          
+          <a href=" https://www.holidify.com/places/sabarimala/">
+          <img src="https://www.holidify.com/images/compressed/2182.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/sabarimala/">Sabarimala</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/sabarimala/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+          
+          
+          <br></br>
+          <!-- KODAIKANAL -->
+          
+          <a href=" https://www.holidify.com/places/kodaikanal/">
+          <img src="https://www.holidify.com/images/bgImages/KODAIKANAL.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/kodaikanal/">Kodaikanal</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kodaikanal/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+          
+          <br></br>
+          <!-- KOLUKKUMALAI -->
+          
+          <a href=" https://www.holidify.com/places/kolukkumalai/">
+          <img src="https://www.holidify.com/images/bgImages/KOLUKKUMALAI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/kolukkumalai/">Kolukkumalai</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kolukkumalai/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+          
+          <br></br>
+          <!-- VALPARAI-->
+          
+          <a href=" https://www.holidify.com/places/valparai/">
+          <img src="https://www.holidify.com/images/bgImages/VALPARAI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/valparai/">Valparai</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/valparai/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+          
+          
+          <br></br>
+          <!-- KOCHI-->
+          
+          <a href=" https://www.holidify.com/places/kochi/">
+          <img src="https://www.holidify.com/images/bgImages/KOCHI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/kochi/">Kochi</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kochi/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+          
+          
+          <br></br>
+          <!-- chembra-peak-->
+          
+          <a href=" https://www.holidify.com/places/wayanad/chembra-peak-sightseeing-3946.html">
+          <img src="https://www.holidify.com/images/cmsuploads/compressed/Chembra-Peak-Wayanad_20180119201400.png" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/chembra-peak-sightseeing-3946.html">Chembra_Peak</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/chembra-peak-sightseeing-3946.html">Attractions</a></b></p>
+          
+          <br></br>
+          <!-- Kuruva-Dweep-->
+          
+          <a href=" https://www.holidify.com/places/wayanad/kuruva-dweep-sightseeing-3948.html">
+          <img src="https://www.holidify.com/images/cmsuploads/compressed/Kuruva-Dweep_20180215163207.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/kuruva-dweep-sightseeing-3948.html">Kuruva_Dweep</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/kuruva-dweep-sightseeing-3948.html">Attractions</a></b></p>
+          
+          <br></br>
+          <!-- edakkal-caves-->
+          
+          <a href=" https://www.holidify.com/places/wayanad/edakkal-caves-sightseeing-3947.html">
+          <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_796295632_20200116122849_20200116122911.png" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/edakkal-caves-sightseeing-3947.html">Edakkal_Caves</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/edakkal-caves-sightseeing-3947.html">Attractions</a></b></p>
+          
+          
+          
+          <br></br>
+          <!-- Soochipara_Falls-->
+          
+          <a href=" https://www.holidify.com/places/wayanad/soochipara-falls-sightseeing-3950.html">
+          <img src="https://www.holidify.com/images/cmsuploads/compressed/100816080236(BannerImage)SOOCHIPPARAWATERFALLSIMAGE-15_20180118201857.JPG" class="rounded" alt="Cinque Terre" width="120" height="110">
+          </a>
+          <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/soochipara-falls-sightseeing-3950.html">Soochipara_Falls</a></b></p>
+          <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/soochipara-falls-sightseeing-3950.html">Attractions</a></b></p>
+          
+          <br></br>
+          <!-- Pookot-Lake-->
+
+<a href=" https://www.holidify.com/places/wayanad/pookot-lake-sightseeing-3949.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_720958156_20191118144315_20191118144333.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/pookot-lake-sightseeing-3949.html">Pookot_Lake</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/pookot-lake-sightseeing-3949.html">Attractions</a></b></p>
+  
+  
+  <br></br>
+  <!-- banasura-dam-->
+  
+  <a href=" https://www.holidify.com/places/wayanad/banasura-dam-sightseeing-3944.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1140378593_20200116122458_20200116122531.png" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/banasura-dam-sightseeing-3944.html">Banasura_Dam</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/banasura-dam-sightseeing-3944.html">Attractions</a></b></p>
+  
+  
+  
+  
+
+
+          <!-- END OF COL-SM-6 -->
+
+</div>
+
+<!-- NEXT COL-SM-6 -->
+
+<div class="w3-hide-small col-sm-6">
+
+  <!-- IDUKKI -->
+  
+  <a href=" https://www.holidify.com/places/idukki/">
+  <img src="https://www.holidify.com/images/bgImages/IDUKKI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/idukki/">Idukki</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/idukki/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  <br></br>
+  <!-- ALLEPPEY -->
+  
+  <a href=" https://www.holidify.com/places/alleppey/">
+  <img src="https://www.holidify.com/images/bgImages/ALLEPPEY.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/">Alleppey</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  <br></br>
+  <!-- KUMILY -->
+  
+  <a href=" https://www.holidify.com/places/kumily/">
+  <img src="https://www.holidify.com/images/bgImages/KUMILY.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/kumily/">Kumily</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kumily/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!-- KUMARAKOM -->
+  
+  <a href=" https://www.holidify.com/places/kumarakom/">
+  <img src="https://www.holidify.com/images/bgImages/KUMARAKOM.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/kumarakom/">Kumarakom</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kumarakom/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--Kalvari_Mount -->
+  
+  <a href=" https://www.holidify.com/places/idukki/kalvari-mount-sightseeing-1257088.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/800px-Kalvari_Mount_Idukki_0253_20190728234932.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/idukki/kalvari-mount-sightseeing-1257088.html">Kalvari_Mount</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/idukki/kalvari-mount-sightseeing-1257088.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--kuttikanam -->
+  
+  <a href=" https://www.holidify.com/places/idukki/kuttikanam-sightseeing-1256665.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/Tea_Plantations_at_Kuttikkanam2C_near_Thekkady_20190720134725.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/idukki/kuttikanam-sightseeing-1256665.html">Kuttikanam</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/idukki/kuttikanam-sightseeing-1256665.html">Attractions</a></b></p>
+  
+  <br></br>
+
+<!--eravikulam -->
+
+<a href=" https://www.holidify.com/places/munnar/eravikulam-rajamalai-national-park-sightseeing-2895.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/E1_20170907143409.PNG" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/images/cmsuploads/compressed/E1_20170907143409.PNG">Eravikulam_Park</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/munnar/eravikulam-rajamalai-national-park-sightseeing-2895.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--anamudi-peak -->
+  
+  <a href=" https://www.holidify.com/places/munnar/anamudi-peak-sightseeing-2886.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/2044273648_cb8749be88_b_20190717171039.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/munnar/anamudi-peak-sightseeing-2886.html">Anamudi_peak</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/munnar/anamudi-peak-sightseeing-2886.html">Attractions</a></b></p>
+  
+  
+  <br></br>
+  <!--neelimala-viewpoint -->
+  
+  <a href=" https://www.holidify.com/places/wayanad/neelimala-viewpoint-sightseeing-122822.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/32008225212_f27245267c_b_20190412141542.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/wayanad/neelimala-viewpoint-sightseeing-122822.html">Neelimala_Viewpoint</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/wayanad/neelimala-viewpoint-sightseeing-122822.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--alappuzha-beach -->
+  
+  <a href=" https://www.holidify.com/places/alleppey/alappuzha-beach-sightseeing-1123.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/A12_20170925211413.PNG" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/alappuzha-beach-sightseeing-1123.html">Alappuzha_Beach</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/alappuzha-beach-sightseeing-1123.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--Vembanad_lake -->
+  
+  <a href=" https://www.holidify.com/places/alleppey/vembanad-sightseeing-1133.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/Scenes_fom_Vembanad_lake_en_route_Alappuzha_Kottayam48_20180324212726.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/vembanad-sightseeing-1133.html">Vembanad_lake</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/vembanad-sightseeing-1133.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--KUTTANAD -->
+  
+  <a href=" https://www.holidify.com/places/alleppey/kuttanad-sightseeing-1130.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/4082_20190314125306.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/kuttanad-sightseeing-1130.html">Kuttanad</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/kuttanad-sightseeing-1130.html">Attractions</a></b></p>
+  
+  <br></br>
+<!--thottapally-beach -->
+
+<a href=" https://www.holidify.com/places/alleppey/thottapally-beach-sightseeing-124416.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/TBA_20180911144052.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/thottapally-beach-sightseeing-124416.html">Thottapally_Beach</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/thottapally-beach-sightseeing-124416.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--punnamada-lake -->
+  
+  <a href=" https://www.holidify.com/places/alleppey/punnamada-lake-sightseeing-125263.html">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/House_boat._punnamada_lake._Alappuzha_-_panoramio_20181129234617.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/alleppey/punnamada-lake-sightseeing-125263.html">Punnamada_Lake</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/alleppey/punnamada-lake-sightseeing-125263.html">Attractions</a></b></p>
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+</div>
+<!-- END of inner container and row tag -->
+</div>
+</div>
+
+
+<!-- SIMILAR PLACES -->
+<div class="container">
+<h3 class="w3-hide-small w3-allerta">Similar Places</h3>
+</div>
+
+<p></p>
+<div class="container"> 
+  <div class="row">
+    <div class="w3-hide-small col-sm-6">
+
+<!--Ooty -->
+
+<a href=" https://www.holidify.com/places/bandipur-national-park/">
+<img src="https://www.holidify.com/images/bgImages/BANDIPUR-NATIONAL-PARK.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/bandipur-national-park/">Ooty</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/ooty/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--MYSORE -->
+
+<a href=" https://www.holidify.com/places/mysore/">
+<img src="https://www.holidify.com/images/bgImages/MYSORE.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href=" https://www.holidify.com/places/mysore/">Mysore</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/mysore/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--COORG -->
+
+<a href=" https://www.holidify.com/places/coorg/">
+<img src="https://www.holidify.com/images/bgImages/COORG.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href=" https://www.holidify.com/places/coorg/">Coorg</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/coorg/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--SRIRANGAPATNA -->
+
+<a href=" https://www.holidify.com/places/srirangapatna/">
+<img src="https://www.holidify.com/images/bgImages/SRIRANGAPATNA.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href=" https://www.holidify.com/places/srirangapatna/">Srirangapatna</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/srirangapatna/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--KABINI -->
+
+<a href="https://www.holidify.com/places/kabini/">
+<img src="https://www.holidify.com/images/bgImages/KABINI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href=" https://www.holidify.com/places/kabini/">Kabini</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kabini/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--COONOOR -->
+
+<a href="https://www.holidify.com/places/coonoor/">
+<img src="https://www.holidify.com/images/bgImages/COONOOR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href=" https://www.holidify.com/places/coonoor/">Coonoor</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/coonoor/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--COIMBATORE -->
+
+<a href="https://www.holidify.com/places/coimbatore/">
+<img src="https://www.holidify.com/images/bgImages/COIMBATORE.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href=" https://www.holidify.com/places/coimbatore/">Coimbatore</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/coimbatore/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--PALAKKAD -->
+
+<a href="https://www.holidify.com/places/palakkad/">
+<img src="https://www.holidify.com/images/bgImages/PALAKKAD.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/palakkad/">Palakkad</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/palakkad/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--MANALI -->
+
+<a href="https://www.holidify.com/places/manali/">
+<img src="https://www.holidify.com/images/bgImages/MANALI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/manali/">Manali</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/manali/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--SHIMLA -->
+
+<a href="https://www.holidify.com/places/shimla/">
+<img src="https://www.holidify.com/images/bgImages/SHIMLA.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/shimla/">Shimla</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/shimla/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--dalhousie-->
+
+<a href="https://www.holidify.com/places/dalhousie/">
+<img src="https://www.holidify.com/images/bgImages/DALHOUSIE.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/dalhousie/">Dalhousie</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/dalhousie/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--amritsar-->
+
+<a href="https://www.holidify.com/places/amritsar/">
+<img src="https://www.holidify.com/images/bgImages/AMRITSAR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/amritsar/">Amritsar</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/amritsar/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--dharamsala-->
+
+<a href="https://www.holidify.com/places/dharamsala/">
+  <img src="https://www.holidify.com/images/bgImages/DHARAMSALA.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/dharamsala/">Dharamsala</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/dharamsala/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--palampur-->
+  
+  <a href="https://www.holidify.com/places/palampur/">
+  <img src="https://www.holidify.com/images/bgImages/PALAMPUR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/palampur/">Palampur</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/palampur/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  
+  
+  <br></br>
+  <!--vaishno-devi-->
+  
+  <a href="https://www.holidify.com/places/vaishno-devi/">
+  <img src="https://www.holidify.com/images/bgImages/VAISHNO-DEVI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/vaishno-devi/">Vaishno_devi</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/vaishno-devi/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--srinagar-->
+  
+  <a href="https://www.holidify.com/places/srinagar/">
+  <img src="https://www.holidify.com/images/bgImages/SRINAGAR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/srinagar/">Srinagar</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/srinagar/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--amarnath-->
+  
+  <a href="https://www.holidify.com/places/amarnath/">
+  <img src="https://www.holidify.com/images/bgImages/AMARNATH.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/amarnath/">Amarnath</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/amarnath/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  
+  
+  
+  
+
+<!--END OF PART2 COL-SM-6 -->
+</div>
+
+<div class="w3-hide-small col-sm-6">
+
+<!--punnamada-lake -->
+
+<a href=" https://www.holidify.com/places/coonoor/">
+<img src="https://www.holidify.com/images/bgImages/COONOOR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/coonoor/">Punnamada_Lake</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/coonoor/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+
+<br></br>
+<!--Bandipur_National_Park -->
+
+<a href=" https://www.holidify.com/places/ooty/">
+<img src="https://www.holidify.com/images/bgImages/OOTY.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/ooty/">Bandipur_National_Park</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/bandipur-national-park/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--MELUKOTE -->
+
+<a href=" https://www.holidify.com/places/melukote/">
+<img src="https://www.holidify.com/images/bgImages/MELUKOTE.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/melukote/">Melukote</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/melukote">Attractions</a></b></p>
+
+<br></br>
+<!--NAGARHOLE -->
+
+<a href="https://www.holidify.com/places/nagarhole/">
+<img src="https://www.holidify.com/images/bgImages/NAGARHOLE.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href=" https://www.holidify.com/places/nagarhole/">Nagarhole</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/nagarhole">Attractions</a></b></p>
+
+<br></br>
+<!--VELLIANGIRI-HILLS -->
+
+<a href="https://www.holidify.com/places/velliangiri-hills/">
+<img src="https://www.holidify.com/images/bgImages/VELLIANGIRI-HILLS.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/velliangiri-hills/">Velliangiri_hills</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/velliangiri-hills/">Attractions</a></b></p>
+
+<br></br>
+<!--nelliyampathy -->
+
+<a href="https://www.holidify.com/places/nelliyampathy/">
+<img src="https://www.holidify.com/images/bgImages/NELLIYAMPATHY.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/nelliyampathy/">Nelliyampathy</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/nelliyampathy/">Attractions</a></b></p>
+
+
+<br></br>
+<!--ladakh-->
+
+<a href="https://www.holidify.com/places/ladakh/">
+<img src="https://www.holidify.com/images/bgImages/LADAKH.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/ladakh/">Ladakh</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/ladakh/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+
+<br></br>
+<!--Kargil-->
+
+<a href="https://www.holidify.com/places/kargil/">
+<img src="https://www.holidify.com/images/bgImages/KARGIL.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/kargil/">Kargil</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kargil/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--patnitop-->
+
+<a href="https://www.holidify.com/places/patnitop/">
+<img src="https://www.holidify.com/images/bgImages/PATNITOP.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/patnitop/">Patnitop</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/patnitop/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--kullu-->
+
+<a href="https://www.holidify.com/places/kullu/">
+<img src="https://www.holidify.com/images/bgImages/KULLU.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/kullu/">Kullu</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/kullu/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--darjeeling-->
+
+<a href="https://www.holidify.com/places/darjeeling/">
+<img src="https://www.holidify.com/images/bgImages/DARJEELING.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/darjeeling/">Darjeeling</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/darjeeling/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--gangtok-->
+
+<a href="https://www.holidify.com/places/gangtok/">
+<img src="https://www.holidify.com/images/bgImages/GANGTOK.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/gangtok/">Gangtok</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/gangtok/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--haridwar-->
+
+<a href="https://www.holidify.com/places/haridwar/">
+<img src="https://www.holidify.com/images/bgImages/HARIDWAR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/haridwar/">Haridwar</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/haridwar/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--nainital-->
+
+<a href="https://www.holidify.com/places/nainital/">
+<img src="https://www.holidify.com/images/bgImages/NAINITAL.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/nainital/">Nainital</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/nainital/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--dehradun-->
+
+<a href="https://www.holidify.com/places/dehradun/">
+<img src="https://www.holidify.com/images/bgImages/DEHRADUN.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+</a>
+<p><b><a style="color:black" href="https://www.holidify.com/places/dehradun/">Dehradun</a></b></p>
+<p><b><a style="color:#3498DB" href="https://www.holidify.com/places/dehradun/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+
+<br></br>
+<!--auli-->
+
+<a href="https://www.holidify.com/places/auli/">
+  <img src="https://www.holidify.com/images/bgImages/AULI.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/auli/">Auli</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/auli/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  <br></br>
+  <!--badrinath-->
+  
+  <a href="https://www.holidify.com/places/badrinath/">
+  <img src="https://www.holidify.com/images/bgImages/BADRINATH.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  <p><b><a style="color:black" href="https://www.holidify.com/places/badrinath/">Badrinath</a></b></p>
+  <p><b><a style="color:#3498DB" href="https://www.holidify.com/places/badrinath/sightseeing-and-things-to-do.html">Attractions</a></b></p>
+  
+  
+  
+  
+
+
+<!--END OF PART2 COL-SM-6 -->
+</div>
+
+
+
+
+
+
+
+
+
+<!-- END of inner container and row tag -->
+</div>
+</div>
+<div class="container">
+  <h3 class="w3-hide-small w3-allerta">Related Posts</h3>
+  </div>
+  
+  <p></p>
+     <div class="container"> 
+    <div class="row">
+      <div class="w3-hide-small col-sm-6">
+  
+  <!--RELATED POSTS -->
+  
+  <!--first POSTS -->
+  <a href=" https://www.holidify.com/collections/places-to-visit-near-thekkady">
+  <img src="https://www.holidify.com/images/bgImages/MUNNAR.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  
+  <br></br>
+  
+  <!--second POST -->
+  <a href=" https://www.holidify.com/collections/national-parks-in-kerala">
+  <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1078227548_20191129122224_20191129122306.png" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  
+  <br></br>
+  
+  <!--third POST -->
+  <a href="https://www.holidify.com/collections/tree-houses-in-india ">
+  <img src="https://cf.bstatic.com/images/hotel/max1024x768/533/53349650.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  
+  <br></br>
+  
+  
+  <!--fourth POST -->
+  <a href="https://www.holidify.com/pages/monsoon-trip-destinations-india-4627.html ">
+  <img src="https://www.holidify.com/blog/wp-content/uploads/2014/07/kodai.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  
+  <br></br>
+  
+  
+  <!--FIFTH POST -->
+  <a href="https://www.holidify.com/collections/places-to-visit-in-winter-in-india ">
+  <img src="https://www.holidify.com/images/bgImages/DHARAMSALA.jpg" class="rounded" alt="Cinque Terre" width="120" height="110">
+  </a>
+  
+  <br></br>
+  
+  
+  <!--END OF PART1 COL-SM-6 -->
+  </div>
+  
+  <div class="w3-hide-small col-sm-6">
+  
+  <p></p>
+  <p><a href=" https://www.holidify.com/collections/places-to-visit-near-thekkady "> Places To Visit Near Thekkady</a></p>
+  <br></br>
+  
+  
+  <p></p>
+  <p><a href="  https://www.holidify.com/collections/national-parks-in-kerala "> Wilderness Of Kerala</a></p>
+  <br></br>
+  
+  
+  <p></p>
+  <p><a href=" https://www.holidify.com/collections/tree-houses-in-india "> Tree House Resorts In India</a></p>
+  <br></br>
+  
+  
+  <p></p>
+  <p><a href=" https://www.holidify.com/pages/monsoon-trip-destinations-india-4627.html "> Must Visit Places In Monsoon</a></p>
+  <br></br>
+  
+  
+  <p></p>
+  <p><a href=" https://www.holidify.com/collections/places-to-visit-in-winter-in-india "> Best Places To Visit In India In Winter</a></p>
+  <br></br>
+  
+  
+  
+  
+  <!--END OF PART2 COL-SM-6 -->
+  </div>
+  <!-- END of inner container and row tag -->
+  </div>
+  </div>
+  
+
+
+
+
+
+<!-- END of inner container and row tag -->
+</div>
+</div>
+  
+  </div>
+<!-- end of container and row-->
+    </div>
+  
+
+  <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+    
+    
+    
+    <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction1() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+    // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+    }
+    
+    
+    </script>
+    
+    <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
+    
+    
+    <script>
+    function myFunctio() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topna") {
+        x.className += " responsive";
+      } else {
+        x.className = "topna";
+      }
+    }
+    </script>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlid");
+      var dots = document.getElementsByClassName("demot");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" activet", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " activet";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+    
+    
+    <script>
+    // Create a "close" button and append it to each list item
+    var myNodelist = document.getElementsByTagName("LI");
+    var i;
+    for (i = 0; i < myNodelist.length; i++) {
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "close2";
+      span.appendChild(txt);
+      myNodelist[i].appendChild(span);
+    }
+    
+    // Click on a close button to hide the current list item
+    var close = document.getElementsByClassName("close2");
+    var i;
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+    
+    // Add a "checked" symbol when clicking on a list item
+    var list = document.querySelector('ul');
+    list.addEventListener('click', function(ev) {
+      if (ev.target.tagName === 'LI') {
+        ev.target.classList.toggle('checked');
+      }
+    }, false);
+    
+    // Create a new list item when clicking on the "Add" button
+    function newElement() {
+      var li = document.createElement("li");
+      var inputValue = document.getElementById("myInput").value;
+      var t = document.createTextNode(inputValue);
+      li.appendChild(t);
+      if (inputValue === '') {
+        alert("You must write something!");
+      } else {
+        document.getElementById("myUL").appendChild(li);
+      }
+      document.getElementById("myInput").value = "";
+    
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "close2";
+      span.appendChild(txt);
+      li.appendChild(span);
+    
+      for (i = 0; i < close.length; i++) {
+        close[i].onclick = function() {
+          var div = this.parentElement;
+          div.style.display = "none";
+        }
+      }
+    }
+    </script>
+    
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active3");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+    
+
+
+    <footer class="w3-center w3-black w3-padding-16 w3-opacity w3-hover-opacity-off">
+ 
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+      <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+    <div><h3> SARANGU SAI SURAJ</h3>
+    <p></p>
+    
+    </div>
+      
+    </footer>
+
+  </body>
+  </html>
+    

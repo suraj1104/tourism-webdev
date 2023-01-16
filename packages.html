@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <!-- bootstrap-socia -->
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- bootstrap-socia -->
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top"> 
+  <div class="w3-bar w3-black" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-left" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+     
+
+    <div class="w3-dropdown-hover ">
+    <a href="index.html" class=" w3-hide-small raj w3-allerta w3-button">HOME <i class="fa fa-home"></i></a>
+     
+    </div>
+
+  
+   
+
+
+     <div class="w3-dropdown-hover ">
+      <a href="placesToVisit.html" class=" w3-hide-small raj w3-allerta w3-button">PLACES TO VISIT </i></a>
+      
+    </div>
+
+     <div class="w3-dropdown-hover ">
+      <a href="packages.html" class=" w3-hide-small raj w3-allerta w3-button">PACKAGES </i></a>
+     
+    </div>
+
+      <div class="w3-dropdown-hover ">
+      <a href="hotels.html" class=" w3-hide-small raj w3-allerta w3-button">HOTELS</i></a>
+     
+    </div>
+
+
+     <div class="w3-dropdown-hover ">
+      <a href="activities.html" class=" w3-hide-small raj w3-allerta w3-button">ACTIVITIES</i></a>
+     
+    </div>
+
+
+   
+
+
+  
+ </div>
+
+
+
+  
+
+ <!-- Navbar on small screens -->
+ <div id="navDemo" class=" w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+  <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+  <a href="placesToVisit.html" class="w3-bar-item  w3-button" onclick="toggleFunction()">PLACES TO VISIT</a>
+ <a href="packages.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">PACKAGES</a>
+<a href="hotels.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">HOTELS</a>
+<a href="activities.html" class=" w3-bar-item w3-button" onclick="toggleFunction()">ACTIVITIES</a>
+<a href="#faq" class="w3-bar-item w3-button" onclick="toggleFunction()">FAQs</a>
+<a href="#" class="w3-bar-item w3-button"></a>
+ 
+</div>
+</div>
+
+
+  
+  
+
+<div class="image-container">
+  <div class="tex" id="home">THEKKADY TOURISM</div>
+</div>
+
+
+<div id="mySidenav" class=" w3-allerta sidenav">
+  <a href="#" id="signin" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In</a>
+  <a href="#" id="register" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register </a> 
+ 
+</div>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="contain">
+    
+    <div class="ro">
+      <h2 class="cope"  style="text-align:center"><b>Login with Social Media or Manually</b></h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn1 cop">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn1 cop">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn1 cop"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+<br></br>
+
+       <p class="cop"><a href="#" class="w3-button w3-block w3-ripple w3-brown" style="color:white;">Sign Up</a> </p> 
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" class="cope" placeholder="Username" required>
+        <input type="password" name="password" class="cope" placeholder="Password" required>
+        <input type="submit" class="cope" value="Login">
+<br></br>
+<p class="cop"><a href="#" class="w3-button w3-block w3-ripple w3-grey" style="color:white;">Forgot Password</a> </p> 
+      </div>
+      
+    </div>
+    
+           </div>
+  </form>
+</div>
+
+  
+
+
+
+  
+</div>
+</header>
+
+<br></br>
+
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+
+  
+  <div class="tex2" id="packages" >THEKKADY PACKAGES</div>
+</div>
+
+<br></br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+<!-- MAIN (Center website) -->
+<div class="main">
+<div class="rowe">
+
+  <!-- FIRST PACKAGE-->
+
+<div class="column wildlife activity rivers park waterfall sightseeing viewpoint culture ">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Splendid Thekkady And Munnar</b></p>
+       
+<div class="containe">  
+
+      <img class="im reg" src="https://www.holidify.com/images/cmsuploads/square/shutterstock_1171771060_20191104163238.jpg"  alt="Mountains" >
+
+<div class="topleft w3-tag w3-round w3-red" style="padding:3px">
+    <div class="w3-tag w3-round w3-red w3-border w3-border-white">
+      Limited Offer
+    </div>
+  </div>
+      
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.4 /5</div>
+
+</div>
+      
+      
+    <p></p>
+   <p style="color:grey"> 3 Nights</p> 
+<p><b>Munnar(2N) ->Thekkady(1N)</b></p>
+  <p ><span class="w3-tag w3-teal">8,499</span>  onwards </p><p><button class="w3-button w3-ripple w3-orange">Book Now</button> </p>  
+       
+   
+   
+   </div>
+  </div>
+
+
+<!-- SECOND PACKAGE-->
+
+<div class="column wildlife activity rivers park waterfall sightseeing viewpoint culture">
+    <div class="content">
+       <p class=" rap1 w3-allerta"><b>Admirable Thekkady And Kochi</b></p>
+       
+<div class="containe">  
+
+      <img class="im reg" src="https://www.holidify.com/images/cmsuploads/square/shutterstock_107173019_20190312124113.jpg"  alt="Mountains" >
+
+
+      
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.0 /5</div>
+
+</div>
+      
+      
+    <p></p>
+   <p style="color:grey"> 3 Nights</p> 
+<p><b>Kochi(1N) ->Thekkady(2N)</b></p>
+  <p ><span class="w3-tag w3-teal">7,499</span>  onwards </p><p><button class="w3-button w3-ripple w3-orange">Book Now</button> </p>  
+       
+   
+   
+   </div>
+  </div>
+
+
+
+
+<!-- THIRD PACKAGE-->
+
+<div class="column wildlife activity rivers park waterfall sightseeing viewpoint culture">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Romantic Getaway</b></rap1>
+       
+<div class="containe">  
+
+      <img class="im reg" src="https://www.holidify.com/images/cmsuploads/square/Blue_Hills_and_Tea_Garden_at_Munnar_Kerala_20190207123736jpg"  alt="Mountains" >
+
+
+      
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">4.3 /5</div>
+
+</div>
+      
+      
+    <p></p>
+   <p style="color:grey"> 4 Nights</p> 
+<p><b>Munnar(1N) ->Thekkady(2N) ->Alleppey(1N)</b></p>
+  <p ><span class="w3-tag w3-teal">14,499</span>  onwards </p><p><button class="w3-button w3-ripple w3-orange">Book Now</button> </p>  
+       
+   
+   
+   </div>
+  </div>
+
+
+
+
+
+
+<!-- Fourth PACKAGE-->
+
+<div class="column wildlife activity rivers park waterfall sightseeing viewpoint culture">
+    <div class="content">
+       <p class="rap1 w3-allerta"><b>Fascinating Package</b></p>
+       
+<div class="containe">  
+
+      <img class="im reg" src="https://www.holidify.com/images/cmsuploads/square/dest_pixa_9629_20190312132631.jpg"  alt="Mountains" >
+
+<div class="topleft w3-tag w3-round w3-red " style="padding:3px">
+    <div class="w3-tag w3-round w3-red w3-border w3-border-white">
+      Special Offer
+    </div>
+
+  </div>
+      
+      <div class="topright w3-tag w3-round w3-green" style="transform:rotate(-5deg)">3.9 /5</div>
+
+</div>
+      
+      
+    <p></p>
+   <p style="color:grey"> 4 Nights</p> 
+<p><b>Kochi(1N) ->Munnar(1N) ->Thekkady(2N) </b></p>
+  <p ><span class="w3-tag w3-teal">10,499</span>  onwards </p><p><button class="w3-button w3-ripple w3-orange">Book Now</button> </p>  
+       
+   
+   
+   </div>
+  </div>
+
+
+<!-- END ROWE(second time)-->
+</div>
+
+</div>
+<!-- END of col-sm-10-->
+</div>
+
+<div class="col-sm-2">
+
+  </div>
+
+
+<!-- END ROW and container-->
+  </div>
+  </div>
+
+
+
+
+
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+  
+  
+  
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction1() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <script>
+  // Change style of navbar on scroll
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+      }
+  }
+  
+  
+  </script>
+  
+  <script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function toggleFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  </script>
+  
+  
+  <script>
+  function myFunctio() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topna") {
+      x.className += " responsive";
+    } else {
+      x.className = "topna";
+    }
+  }
+  </script>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlid");
+    var dots = document.getElementsByClassName("demot");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" activet", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " activet";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  
+  
+  <script>
+  // Create a "close" button and append it to each list item
+  var myNodelist = document.getElementsByTagName("LI");
+  var i;
+  for (i = 0; i < myNodelist.length; i++) {
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close2";
+    span.appendChild(txt);
+    myNodelist[i].appendChild(span);
+  }
+  
+  // Click on a close button to hide the current list item
+  var close = document.getElementsByClassName("close2");
+  var i;
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+  
+  // Add a "checked" symbol when clicking on a list item
+  var list = document.querySelector('ul');
+  list.addEventListener('click', function(ev) {
+    if (ev.target.tagName === 'LI') {
+      ev.target.classList.toggle('checked');
+    }
+  }, false);
+  
+  // Create a new list item when clicking on the "Add" button
+  function newElement() {
+    var li = document.createElement("li");
+    var inputValue = document.getElementById("myInput").value;
+    var t = document.createTextNode(inputValue);
+    li.appendChild(t);
+    if (inputValue === '') {
+      alert("You must write something!");
+    } else {
+      document.getElementById("myUL").appendChild(li);
+    }
+    document.getElementById("myInput").value = "";
+  
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close2";
+    span.appendChild(txt);
+    li.appendChild(span);
+  
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+  }
+  </script>
+  
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active3");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
+  
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16 w3-opacity w3-hover-opacity-off">
+ 
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+<div><h3> SARANGU SAI SURAJ</h3>
+<p></p>
+
+</div>
+  
+</footer>
+
+</body>
+</html>
